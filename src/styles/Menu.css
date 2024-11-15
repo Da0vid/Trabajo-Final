@@ -1,0 +1,64 @@
+/* Estilos generales para el menú */
+nav {
+     
+    padding: 10px 20px; 
+    text-align: center; 
+    border-radius: 5px; 
+  }
+  
+  nav ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    justify-content: center; 
+  }
+  
+  nav ul li {
+    margin: 0 15px; 
+  }
+  
+  nav ul li a {
+    color: #fff; 
+    text-decoration: none; 
+    font-size: 18px; 
+    font-weight: bold; 
+    transition: all 0.4s ease; 
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  nav ul li a:hover {
+    background-image: linear-gradient(to right, #166175, #0072ff); 
+   -webkit-background-clip: text; 
+   background-clip: text;
+  color: transparent; 
+    font-size: 20px; 
+  }
+  
+  
+  nav ul li a::before {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 5px;
+    background-color: #0f2292; 
+    left: 50%;
+    bottom: 0;
+    transition: width 0.8s, left 0.8s;
+  }
+  
+  nav ul li a:hover::before {
+    width: 100%;
+    left: 0;
+  }
+  
+  
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column; 
+    }
+    nav ul li {
+      margin: 10px 0; 
+    }
+  }
+  
