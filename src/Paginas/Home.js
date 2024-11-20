@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Titulo from '../Componentes/Titulo';
 import Menu from '../Componentes/Menu';  
 import './Home.css';
+import Text_Inicio from '../Componentes/Text_Inicio';
 import { Outlet } from 'react-router-dom';  
 
 const Home = () => {
@@ -26,7 +27,7 @@ const Home = () => {
       ></div>
       <Titulo />
       <Menu /> 
-     
+      
       <Outlet /> 
     </div>
   );
