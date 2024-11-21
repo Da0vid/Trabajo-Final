@@ -1,5 +1,10 @@
 .Info{
     text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-    
+    font-size: 20px;
+    position: absolute;
+    left: 45.6%;
+    top: 38%;
 }
+

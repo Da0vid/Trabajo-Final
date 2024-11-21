@@ -1,0 +1,16 @@
+.proyecto1{
+    width: 400px;
+    position: absolute;
+    left: 25%;
+    top: 62%;
+    transform: translateX(-50%);
+    
+}
+
+.p_vuelos{
+    color: white;
+    position: absolute;
+    left: 11%;
+    top: 46%;
+    
+}

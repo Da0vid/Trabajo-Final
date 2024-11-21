@@ -3,7 +3,7 @@ import cLogo from '../Img/c.png';
 import hLogo from '../Img/HTML5.png';
 import cssLogo from '../Img/css.png';
 import Barra from './Barra';
-import BarraH from './BarraH';
+
 
 const Habilidades = () => {
   return (
@@ -13,7 +13,7 @@ const Habilidades = () => {
       <img className="h" src={hLogo}/>
       <img className="css" src={cssLogo}/>
       <Barra/>
-    <BarraH/>
+    
     </div>
   );
 };
