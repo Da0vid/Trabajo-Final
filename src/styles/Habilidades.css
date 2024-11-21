@@ -1,0 +1,64 @@
+.c{
+    width: 48px;
+    position: absolute;
+    left: 35%;
+    top: 61%;
+    transform: translateX(-50%);
+}
+
+.h{
+    width: 60px;
+    position: absolute;
+    left: 35%;
+    top: 74%;
+    transform: translateX(-50%);
+}
+
+.css{
+    width: 60px;
+    position: absolute;
+    left: 35%;
+    top: 88%;
+    transform: translateX(-50%);
+}
+
+.h4_habilidades{
+    text-align: center;
+    color: white;
+   margin-top: 40px;
+   font-size: 20px; 
+}
+
+.barra {
+    width: 25%; 
+    height: 20px; 
+    background-color: #ddd; 
+    border-radius: 10px;
+    overflow: hidden; 
+    position: relative;
+    position: absolute;
+    left: 51%;
+    top: 63.9%;
+    transform: translateX(-50%);
+  }
+  
+  .progreso {
+    width: 0%; 
+    height: 100%; 
+    background-image: linear-gradient(to right, #3a1675, #5c4894); 
+    animation: animacionProgreso 5s linear forwards; 
+  }
+  
+  @keyframes animacionProgreso1 {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 55%;
+    }
+  }
+  
+  .progreso-1 {
+    animation: animacionProgreso1 5s forwards; /* Animación para la primera barra */
+  }
+  

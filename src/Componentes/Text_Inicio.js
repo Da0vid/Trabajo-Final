@@ -5,8 +5,8 @@ const Text_Inicio = () => {
     <div>
       <p className="P_text">
         ¡Hola! Soy David Sánchez, estudiante de cuarto semestre de Desarrollo de Software en el Pascual Bravo. <br />
-        Me apasiona crear soluciones digitales y tengo experiencia en lenguajes como C#, HTML, CSS y JavaScript. <br />
-        Estoy en constante aprendizaje y me motiva construir proyectos innovadores que resuelvan problemas reales.
+        Me apasiona crear soluciones digitales y estar en constante aprendizaje creando proyectos innovadores.  <br />
+        
       </p>
     </div>
   );
