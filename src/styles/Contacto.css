@@ -1,4 +1,8 @@
 .Contacto{
     text-align: center;
     color: white;
+    position: absolute;
+ left: 49%;
+
+ transform: translateX(-50%);
 }

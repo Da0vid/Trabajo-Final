@@ -1,0 +1,37 @@
+.tel{
+ 
+    width: 93px;
+    position: absolute;
+    left: 26%;
+    top: 61%;
+    transform: translateX(-50%);
+}
+
+.numero{
+
+ color: white;
+ font-size: 25px;
+ position: absolute;
+ left: 34.5%;
+ top: 59%;
+ transform: translateX(-50%);
+}
+
+.correo{
+ 
+    width: 75px;
+    position: absolute;
+    left: 58%;
+    top: 61%;
+    transform: translateX(-50%);
+}
+
+.corre{
+
+ color: white;
+ font-size: 25px;
+ position: absolute;
+ left: 70.5%;
+ top: 58%;
+ transform: translateX(-50%);
+}
